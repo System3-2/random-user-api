@@ -34,4 +34,6 @@ button{
   padding: .7rem;
   border-radius: 8px;
   margin-top: 1rem;
+  color: #000;
+  font-weight: 600;
 }
