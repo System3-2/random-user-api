@@ -1,0 +1,69 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 1rem;
+  padding: 1rem;
+  background: #ddd;
+}
+h1{
+  margin-bottom: 2rem;
+  /* font-family: 'Noto Sans KR', sans-serif; */
+  font-family: 'Bebas Neue', cursive;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  gap: 1rem;
+  box-shadow: 0 0 20px #0000;
+  /* border: 1px solid black; */
+  background: #00b4d8;
+  border-radius: 10px;
+
+}
+.img-container{
+  width: 300px;
+}
+.img-container img{
+  width: 100%;
+  height: auto;
+}
+.progress-container{
+  width: 100%;
+  border: .1px solid black;
+  height: 7px;
+  border-radius: 1px;
+}
+.progress-bar{
+  width: 0%;
+  background: #fff;
+  height: 100%;
+}
+#title {
+  font-size: 1.5rem;
+  font-weight: bold;;
+  font-style: italic;
+  text-transform: capitalize;
+  
+}
+.music-bar{
+  text-align: center;
+}
+.music-bar i{
+  font-size: 1.5rem;
+  cursor: pointer;
+}
